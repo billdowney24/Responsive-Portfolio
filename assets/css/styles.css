@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #ffffff;   
+  background-color: #ffffff;
   margin-bottom: 30px;
   border-bottom: 3px solid #cccccc;
 }
@@ -72,7 +72,7 @@ nav ul li:last-child a {
 
 .portfolio-item {
   position: relative;
-  background-color: rgba(0,0,0, .5);
+  background-color: rgba(0, 0, 0, .5);
   color: white;
   margin-bottom: 20px;
   width: 45%;
@@ -90,7 +90,7 @@ nav ul li:last-child a {
   text-align: center;
   padding: 20px 0;
   position: absolute;
-  bottom:15px;
+  bottom: 15px;
   width: 100%;
 }
 
@@ -129,7 +129,8 @@ form label {
   display: block;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   width: 100%;
   display: block;
   margin: 5px 0px 20px 0px;
@@ -168,28 +169,52 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 #sports {
   background: url('../images/image2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 #music {
   background: url('../images/image3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 #technology {
   background: url('../images/image4.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 #cars {
   background: url('../images/image5.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 #moto {
   background: url('../images/image6.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 640px) {
+  .content {
+    width: 600px;
+    margin: 40px 20px;
+    height: 600px;
+  }
+
+  @media screen and (max-width: 980px) {
+    .content {
+      width: 800px;
+      margin: 50px auto;
+    }
+
+    @media screen and (max-width: 768px) {
+      .content {
+        width: 700px;
+        margin: 30px auto 70px auto;
+      }
