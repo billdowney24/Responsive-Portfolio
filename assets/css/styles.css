@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('../images/white-waves.png') repeat;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  overflow: auto;
+  color: #777777;
+  padding-bottom: 10%;
+}
+
+header {
+  background-color: #ffffff;   
+  margin-bottom: 30px;
+  border-bottom: 3px solid #cccccc;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4aaaa5;
+  font-weight: bold;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+header h1 {
+  background: #4aaaa5;
+  color: white;
+  display: inline-block;
+  padding: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+nav {
+  width: 300px;
+  float: right;
+  text-align: center;
+  margin-top: 24px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  color: #333333;
+  font-size: 16px;
+  border-right: 1px solid #eeeeee;
+  text-decoration: none;
+  padding: 5px 15px;
+}
+
+nav ul li:last-child a {
+  border-right: none;
+  padding-right: none;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0px auto;
+  border: 2 px solid #dddddd;
+  background: #ffffff;
+}
+
+.inline-img {
+  float: left;
+  margin: 0 15px 0;
+  border: 1px solid #777777;
+}
+
+.portfolio-item {
+  position: relative;
+  background-color: rgba(0,0,0, .5);
+  color: white;
+  margin-bottom: 20px;
+  width: 45%;
+  float: left;
+  height: 250px;
+}
+
+.portfolio-item:nth-of-type(even) {
+  float: right;
+}
+
+.portfolio-item h4 {
+  background: #4aaaa5;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: absolute;
+  bottom:15px;
+  width: 100%;
+}
+
+.clearfix {
+  display: block;
+  clear: both;
+}
+
+#left-column {
+  margin-top: 30px;
+  background: white;
+  padding: 25px 25px 15px 25px;
+  border: 1px solid;
+  width: 960px;
+  float: left;
+}
+
+#left-column h2 {
+  font-size: 24px;
+  padding: 15px 0;
+  margin-bottom: 20px;
+  margin-top: 0 auto;
+  border-bottom: 1px solid #cccccc;
+  font-weight: 800;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#left-column p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+form label {
+  font-size: 18px;
+  display: block;
+}
+
+form input, form textarea {
+  width: 100%;
+  display: block;
+  margin: 5px 0px 20px 0px;
+  border: 2px solid #cccccc;
+  padding: 10px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 300px;
+}
+
+form button {
+  background: #4aaaa5;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 18px;
+  border: none;
+}
+
+footer {
+  background: #666666;
+  padding: 10px;
+  margin-top: 30px;
+  color: #cccccc;
+  text-align: center;
+  border-top: 2px solid #4aaaa5;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#travel {
+  background: url(../images/image1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#sports {
+  background: url('../images/image2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#music {
+  background: url('../images/image3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#technology {
+  background: url('../images/image4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#cars {
+  background: url('../images/image5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#moto {
+  background: url('../images/image6.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
