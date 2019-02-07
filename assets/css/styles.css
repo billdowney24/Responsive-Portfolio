@@ -201,23 +201,26 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
-  .content {
+  #left-column{
     width: 800px;
     margin: 50px auto;
+    background-color: aqua;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .content {
+  #left-column{
     width: 700px;
     margin: 30px auto 70px auto;
+    background-color: blueviolet; 
   }
 }
 
 @media screen and (max-width: 640px) {
-  .content {
+  #left-column{
     width: 600px;
     margin: 40px 20px;
     height: 600px;
+    background-color: chartreuse;
   }
 }
